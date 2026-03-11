@@ -1,0 +1,98 @@
+[22:30:57] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Amazon.com Inc. Corretto-21.0.10.7.1) on Windows 11 10.0 (amd64)
+[22:30:57] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
+[22:30:57] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[22:30:57] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:30:58] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[22:31:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:31:03] [ServerMain/INFO]: Loaded 1470 recipes
+[22:31:03] [ServerMain/INFO]: Loaded 1584 advancements
+[22:31:03] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[22:31:04] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 315.1ms
+[22:31:04] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[22:31:04] [Server thread/INFO]: Loading properties
+[22:31:04] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[22:31:04] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:31:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:31:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:31:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[22:31:05] [Server thread/INFO]: Default game type: SURVIVAL
+[22:31:05] [Server thread/INFO]: Generating keypair
+[22:31:05] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25565
+[22:31:05] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[22:31:05] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:31:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:31:05] [Server thread/INFO]: Preparing level "world"
+[22:31:05] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[22:31:05] [Server thread/INFO]: Preparing spawn area: 100%
+[22:31:05] [Server thread/INFO]: Prepared spawn area in 1 ms
+[22:31:05] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[22:31:05] [Server thread/INFO]: Preparing spawn area: 100%
+[22:31:05] [Server thread/INFO]: Prepared spawn area in 2 ms
+[22:31:05] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[22:31:05] [Server thread/INFO]: Prepared spawn area in 2 ms
+[22:31:05] [Server thread/INFO]: Done preparing level "world" (0.428s)
+[22:31:05] [Server thread/INFO]: [spark] Starting background profiler...
+[22:31:05] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[22:31:05] [Server thread/INFO]: Starting remote control listener
+[22:31:05] [Server thread/INFO]: Thread RCON Listener started
+[22:31:05] [Server thread/INFO]: RCON running on 127.0.0.1:25575
+[22:31:05] [Server thread/INFO]: Running delayed init tasks
+[22:31:05] [Server thread/INFO]: Done (9.293s)! For help, type "help"
+[22:31:15] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[22:33:31] [User Authenticator #0/INFO]: UUID of player PaletaChupada is 2d3dbce1-3e8e-4d8a-9667-0c0f0ff816a6
+[22:33:36] [Server thread/INFO]: PaletaChupada joined the game
+[22:33:36] [Server thread/INFO]: PaletaChupada[/127.0.0.1:51375] logged in with entity id 35 at ([world]-5.5, 89.0, 3.5)
+[22:34:13] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:34:33] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:34:49] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:35:22] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:35:35] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:35:54] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:36:08] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:36:35] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:37:22] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:38:01] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:38:35] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:40:41] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:40:47] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:40:59] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:41:19] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:41:39] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:41:56] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:42:03] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:42:13] [Server thread/INFO]: [Rcon: Showing new actionbar title for PaletaChupada]
+[22:42:50] [Server thread/INFO]: PaletaChupada lost connection: Disconnected
+[22:42:50] [Server thread/INFO]: PaletaChupada left the game
+[22:43:23] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[22:43:28] [Server thread/INFO]: Stopping server
+[22:43:28] [Server thread/INFO]: Saving players
+[22:43:28] [Server thread/INFO]: Saving worlds
+[22:43:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[22:43:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[22:43:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[22:43:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[22:43:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:43:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:43:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:43:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:43:28] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[22:43:28] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[22:43:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:43:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
