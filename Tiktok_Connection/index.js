@@ -56,8 +56,8 @@ async function startEverything() {
             console.log(`🎁 ${data.uniqueId} envió un regalo: ${data.giftName} (x${data.repeatCount})`);
 
             // Show on screen gift and sender
-            let msgRegalo = `title @a title {"text":"¡${data.uniqueId} envió ${data.giftName}!","color":"light_purple"}`;
-            await rcon.send(msgRegalo);
+            let msgGift = `title @a title {"text":"¡${data.uniqueId} envió ${data.giftName}!","color":"light_purple"}`;
+            await rcon.send(msgGift);
 
             // GIFT CONFIGURATION
 
