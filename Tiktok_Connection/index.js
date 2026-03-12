@@ -45,6 +45,41 @@ async function startEverything() {
             await rcon.send(command);
         });
 
+        // When someone sends a gift, we can react to it in Minecraft
+        tiktokLiveConnection.on('gift', async (data) => {
+            // TikTok sends gifts in combos
+            // This trigger will be called once per gift
+            if (data.giftType === 1 && !data.repeatEnd) {
+                return;
+            }
+
+            console.log(`🎁 ${data.uniqueId} envió un regalo: ${data.giftName} (x${data.repeatCount})`);
+
+            // Show on screen gift and sender
+            let msgRegalo = `title @a title {"text":"¡${data.uniqueId} envió ${data.giftName}!","color":"light_purple"}`;
+            await rcon.send(msgRegalo);
+
+            // GIFT CONFIGURATION
+
+            // ROSE
+            if (data.giftName === "Rose") {
+                // Te da un diamante por cada rosa del combo
+                await rcon.send(`give @a diamond ${data.repeatCount}`);
+            }
+
+            // 3. Si el regalo es un gatito o similar ("Cat")
+            else if (data.giftName === "You're awesome") {
+                // Invoca un gato llamado "Bilbo" o "Yanpol" (puedes cambiarlo)
+                await rcon.send(`execute at @a run summon cat ~ ~1 ~ {CustomName:"\\"Bilbo\\"",CustomNameVisible:1}`);
+            }
+
+            // IF GG
+            else if (data.giftName === "GG") {
+                // Invoca un Creeper a tus espaldas
+                await rcon.send(`execute at @a run summon creeper ~-2 ~ ~`);
+            }
+        });
+
     } catch (error) {
         console.error("🔴 An error occurred:", error);
     }
