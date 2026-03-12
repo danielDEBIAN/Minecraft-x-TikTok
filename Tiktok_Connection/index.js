@@ -7,7 +7,7 @@ let TikTokOptions = {
     requestOptions: {
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-            'Cookie': 'sessionid=TEST; tt-target-idc=TEST;'
+            'Cookie': 'sessionid=e8b8c87badba9518fee3c4e91a7d0f02; tt-target-idc=alisg;'
         }
     }
 };
@@ -17,7 +17,7 @@ let tiktokLiveConnection = new WebcastPushConnection(tiktokUser, TikTokOptions);
 const rcon = new Rcon({
     host: "127.0.0.1", // localhost IP
     port: 25575,       // RCON port (default is 25575)
-    password: "TEST" // server.properties password
+    password: "tiktokMC" // server.properties password
 });
 
 // Principal function
@@ -63,13 +63,19 @@ async function startEverything() {
 
             // ROSE
             if (data.giftName === "Rose") {
-                // Te da un diamante por cada rosa del combo
+                // Diamond for each rose in the combo
                 await rcon.send(`give @a diamond ${data.repeatCount}`);
             }
 
-            // 3. Si el regalo es un gatito o similar ("Cat")
+            // ROSE
+            if (data.giftName === "Maracas") {
+                // Diamond for each maracas in the combo
+                await rcon.send(`give @a diamond ${data.repeatCount}`);
+            }
+
+            // If you're awesome
             else if (data.giftName === "You're awesome") {
-                // Invoca un gato llamado "Bilbo" o "Yanpol" (puedes cambiarlo)
+                // Cat appears
                 await rcon.send(`execute at @a run summon cat ~ ~1 ~ {CustomName:"\\"Bilbo\\"",CustomNameVisible:1}`);
             }
 
